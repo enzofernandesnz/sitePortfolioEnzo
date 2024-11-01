@@ -1,0 +1,506 @@
+@media (max-width: 768px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #enzo {
+        padding-top: 35px;
+        font-weight: 700;
+        font-size: 13px;
+
+    }
+
+    #cabecario {
+
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #cabeca2 {
+        width: 100px;
+        margin-left: 20px;
+        display: flex;
+    }
+
+    #cabeca2 ul div {
+        width: 30px;
+        height: 30px;
+        display: grid;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    #bola {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        border: solid 2px #8d78ff;
+        margin-right: 6px;
+
+    }
+
+    #bola svg {
+        width: 20px;
+        height: 20px;
+    }
+
+
+
+    #container {
+
+        margin-bottom: 100px;
+        padding-top: 150px;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: 20vh 20vh 20vh;
+        grid-template-areas: "a a a"
+            "a a a"
+            "a a a"
+            "a a a"
+            "p p p";
+
+
+
+
+    }
+
+    #meutexto {
+        margin-top: -50px;
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+    #meutexto div p {
+        font-size: 15px;
+    }
+
+    aside {
+        grid-area: a;
+        margin-top: 30px;
+
+    }
+
+    #imagemminha {
+        align-items: center;
+        width: 100%;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    aside ul img {
+        border-radius: 100%;
+        width: 200px;
+        height: 200px;
+
+    }
+
+    #nome {
+        text-align: center;
+        font-family: "Voces", sans-serif;
+        font-size: 40px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+
+
+    #nome ul {
+        font-size: 45px;
+        font-weight: 900;
+        color: #000000;
+    }
+
+
+
+
+    #titulo {
+        height: 60px;
+        margin-bottom: 0px;
+        background-image: linear-gradient(to bottom, #8D78FF 50%, #3B3B79 100%);
+        background-clip: text;
+        color: transparent;
+        font-size: 35px;
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+    #conteinerprojetos {
+        width: 100%;
+        height: 380vh;
+        align-items: center;
+        display: grid;
+        justify-content: center;
+        margin-bottom: -50px;
+    }
+
+    #caixa1 {
+        display: flex;
+        width: 30%;
+        align-items: center;
+
+    }
+
+    #caixa1 div {
+        height: 250px;
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #caixa1 div h4 {
+        padding: 10px;
+    }
+
+    #caixa1 div h2 {
+        padding: 10px;
+        font-size: 30px;
+    }
+
+    #imagem1 {
+
+        width: 600px;
+        height: 350px;
+        background-color: #ffffff;
+        border: solid 2px #8D78FF;
+        border-radius: 10px;
+        overflow: hidden;
+        position: relative;
+        z-index: 1;
+        align-items: center;
+
+
+    }
+
+    #imagem {
+        width: 100%;
+        height: 100%;
+    }
+
+    #cisco {
+        margin-left: 400px;
+        width: 150%;
+        height: 150%;
+    }
+
+    #textodoprojeto1 {
+        font-size: 15px;
+        width: 600px;
+        height: 120px;
+        background: #59598D;
+        border-radius: 20px;
+        border: solid 2px #8D78FF;
+        margin-left: -150px;
+        text-align: center;
+        position: relative;
+        z-index: 2;
+        opacity: 0.9;
+
+
+    }
+
+    #linguagem1 {
+        width: 20%;
+        border-bottom: solid 2px #8D78FF;
+    }
+
+    .gradient {
+        background-image: linear-gradient(to bottom, #8D78FF 50%, #3B3B79 100%);
+        background-clip: text;
+        color: transparent;
+    }
+
+    #caixa2 {
+        display: flex;
+        width: 30%;
+        height: 20%;
+        align-items: center;
+    }
+
+    #caixa2 div {
+        height: 250px;
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    #caixa2 div h2 {
+        padding: 20px;
+        font-size: 20px;
+        text-align: end;
+    }
+
+    #imagem2 {
+        width: 300px;
+        height: 175px;
+        background-color: #ffffff;
+        border: solid 2px #8D78FF;
+        border-radius: 10px;
+        overflow: hidden;
+        position: relative;
+        z-index: 1;
+        align-items: center;
+    }
+
+    #imagem2 img {
+        width: 100%;
+        height: 100%;
+    }
+
+    #textodoprojeto2 {
+        font-size: 15px;
+        width: 600px;
+        height: 120px;
+        background: #59598D;
+        border-radius: 20px;
+        border: solid 2px #8D78FF;
+        margin-right: -150px;
+        text-align: center;
+        position: relative;
+        z-index: 2;
+        opacity: 0.9;
+        display: grid;
+        justify-content: center;
+
+    }
+
+    #linguagem2 {
+        padding: 20px;
+        text-align: end;
+        align-self: end;
+        width: 20%;
+        border-bottom: solid 2px #8D78FF;
+    }
+
+    #caixaroxa {
+        width: 120px;
+        height: 170px;
+        background: #3B3B79;
+        box-shadow: 8px 8px 0px #2f2279;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10% 50% 10% 50% / 50% 10% 50% 10%;
+    }
+
+    #conteinerprojetos {
+        width: 100%;
+        height: 380vh;
+        align-items: center;
+        display: grid;
+        text-align: center;
+        justify-content: center;
+        margin-bottom: -50px;
+    }
+
+    #caixa1 {
+        display: flex;
+        width: 30%;
+        height: 20%;
+        align-items: center;
+
+    }
+
+    #caixa1 div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #caixa1 div h4 {
+        padding: 20px;
+    }
+
+    #caixa1 div h2 {
+        padding: 20px;
+        font-size: 30px;
+    }
+
+    #imagem1 {
+
+        width: 600px;
+        height: 350px;
+        background-color: #ffffff;
+        border: solid 2px #8D78FF;
+        border-radius: 10px;
+        overflow: hidden;
+        position: relative;
+        z-index: 1;
+        align-items: center;
+
+
+    }
+
+    #imagem {
+        width: 100%;
+        height: 100%;
+    }
+
+    #cisco {
+        margin-left: 400px;
+        width: 150%;
+        height: 150%;
+    }
+
+    #textodoprojeto1 {
+        width: 300px;
+        height: 120px;
+        background: #59598D;
+        border-radius: 20px;
+        border: solid 2px #8D78FF;
+        margin-left: -150px;
+        text-align: center;
+        position: relative;
+        z-index: 2;
+        opacity: 0.9;
+
+
+    }
+
+    #linguagem1 {
+        width: 20%;
+        border-bottom: solid 2px #8D78FF;
+    }
+
+    .gradient {
+        background-image: linear-gradient(to bottom, #8D78FF 50%, #3B3B79 100%);
+        background-clip: text;
+        color: transparent;
+    }
+
+    #caixa2 {
+        display: none;
+        width: 30%;
+        height: 20%;
+        align-items: center;
+    }
+
+    #caixa2 div {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    #caixa2 div h2 {
+        padding: 20px;
+        font-size: 30px;
+        text-align: end;
+    }
+
+    #imagem2 {
+        width: 600px;
+        height: 350px;
+        background-color: #ffffff;
+        border: solid 2px #8D78FF;
+        border-radius: 10px;
+        overflow: hidden;
+        position: relative;
+        z-index: 1;
+        align-items: center;
+    }
+
+    #imagem2 img {
+        width: 100%;
+        height: 100%;
+    }
+
+    #textodoprojeto2 {
+        width: 300px;
+        height: 120px;
+        background: #59598D;
+        border-radius: 20px;
+        border: solid 2px #8D78FF;
+        margin-right: -150px;
+        text-align: center;
+        position: relative;
+        z-index: 2;
+        opacity: 0.9;
+        display: grid;
+        justify-content: center;
+
+    }
+
+    #linguagem2 {
+        padding: 10px;
+        text-align: end;
+        align-self: end;
+        width: 20%;
+        border-bottom: solid 2px #8D78FF;
+
+    }
+
+    #cadastrar {
+        margin-top: -45px;
+        align-items: center;
+        text-align: center;
+        width: 150px;
+        height: 30px;
+        border-radius: 20px;
+        border: solid 2.5px #8D78FF;
+        background-color: transparent;
+    }
+
+    #rodape li {
+        font-size: 13px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+
+    #divtitulo {
+
+        width: 100%;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    @media screen and (max-width: 700px) {
+        #meutexto{
+            flex-direction: column;
+        }
+        #caixaroxa{
+            width: 70px;
+            height: 120px;
+        }
+        .title-project, .title-project2{
+            font-size: 20px;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

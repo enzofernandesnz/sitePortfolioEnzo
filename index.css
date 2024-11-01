@@ -1,0 +1,759 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: aliceblue;
+    list-style: none;
+    font-family: "Lato", sans-serif;
+
+}
+
+body {
+    background-image: url(./onda.svg), linear-gradient(rgb(59, 59, 121), rgb(0, 0, 0));
+    background-repeat: no-repeat;
+    background-size: clamp(1500px, 130%, 2000px);
+    background-position: center 0;
+}
+a{
+    text-decoration: none;
+}
+
+
+#A {
+    padding-top: 100px;
+}
+
+header {
+    width: 100%;
+}
+
+header li {
+    list-style: none;
+}
+
+
+
+#enzo {
+    padding-top: 20px;
+    font-weight: 700;
+    font-size: 25px;
+
+}
+#enzo div span{
+    color: #8D78FF;
+}
+
+#cabecario {
+
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#cabecario a {
+    text-decoration: none;
+}
+
+#cabecario a div {
+    margin-top: 28px;
+    width: 100px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+
+
+#cabeca {
+    background: transparent;
+    display: flex;
+    height: 50px;
+
+}
+#cabeca a{
+    display: grid;
+    place-content: center;
+    margin: 20px;
+    width: 100px;
+    height: 20px; 
+}
+
+
+.menu:hover~hr {
+    opacity: 1;
+    width: 100%;
+    color: aliceblue;
+    
+
+}
+
+
+
+.menu~hr {
+    opacity: 0;
+    height: 0px;
+    width: 0px;
+    transition: 0.5s ;
+
+}
+
+.menu{
+    color: white;
+}
+.active{
+    color: #3B3B79;
+}
+#cabeca2 {
+    width: 100px;
+    margin-left: 20px;
+    display: flex;
+}
+
+#cabeca2 ul div {
+    width: 40px;
+    height: 40px;
+    display: grid;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#bola {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: solid 2px #8d78ff;
+    margin-right: 15px;
+
+}
+
+#bola svg {
+    width: 25px;
+    height: 25px;
+}
+#bola svg { fill:#ffffff}
+
+#bola:hover{
+    transition: 0.3s;
+    background-color: rgb(255, 255, 255);
+ 
+}
+#bola:hover svg{
+    fill: #3B3B79;
+    transition: 0.3s;
+}
+
+
+
+
+
+#container {
+    margin-bottom: 100px;
+    padding-top: 150px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 20vh 20vh 20vh;
+    grid-template-areas: "a a a"
+                         "a a a"
+                         "a a a"
+                         "a a a"
+                         "p p p";
+
+
+
+
+}
+
+aside {
+    grid-area: a;
+    margin-top: 100px;
+
+}
+#imagemminha{
+    margin-top: -50px;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+
+}
+aside ul img{
+    object-fit: cover;
+    border-radius: 100%;
+    width: 250px;
+    height: 250px;
+    
+}
+
+#nome {
+    margin-top: 00px;
+    font-family: "Voces", sans-serif;
+    font-size: 60px;
+    display: grid;
+    justify-content: center;
+    
+}
+
+#nome p {
+    font-weight: 700;
+    background-image: linear-gradient(to bottom, #8D78FF 50%,  #3B3B79 100%);
+    background-clip: text;
+    color: transparent;
+
+}
+
+#nome ul {
+    font-size: 50px;
+    font-weight: 900;
+    color: #000000;
+}
+
+nav {
+    height: 100%;
+    width: 99%;
+    margin-right: 100px;
+    padding-top: 50px;
+    display: grid;
+    grid-area: n;
+    justify-content: space-around;
+    border-left: solid 1px #8d78ff;
+}
+
+nav a {
+    height: 50px;
+}
+
+
+#escura {
+    grid-area: p;
+    margin-top: 100px;
+    display: grid;
+    width: 100%;
+
+}
+
+#disfarcado {
+    margin-top: -300px;
+    width: 100%;
+    height: 250px;
+    position: relative;
+    z-index: -99;
+}
+
+#preto {
+    margin-top: -50px;
+    width: 100%;
+    height: 150px;
+    background-color: #000000;
+
+}
+
+#disfarcado2 {
+
+    width: 100%;
+    height: 250px;
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(89, 89, 141));
+}
+
+
+
+#conteinermim {
+    margin-top: 100px;
+    width: 100%;
+    align-items: center;
+}
+
+#divtitulo {
+    
+    width: 100%;
+    height: 300px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#titulo {
+    padding-bottom: 5%;
+    height: 60px;
+    margin-bottom: 0px;
+    background-image: linear-gradient(to bottom, #8D78FF 50%,  #3B3B79 100%);
+    background-clip: text;
+    color: transparent;
+    font-size: 40px;
+
+
+}
+
+.bosta {
+    background-color: black;
+}
+
+
+
+#meutexto {
+    margin-top: -50px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#meutexto div p {
+    font-size: 25px;
+}
+
+#titulomim {
+    width: 300px;
+    margin-bottom: 50px;
+    
+}
+
+#hard {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+#caixaroxa {
+    width: 170px;
+    min-width: 170px;
+    height: 220px;
+    background: #3B3B79;
+    box-shadow: 8px 8px 0px #2f2279;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10% 50% 10% 50% /
+                   50% 10% 50% 10%;
+    cursor: pointer;
+}
+#caixaroxa:hover{
+    transition: all 1s;
+    transform: scale(1.3) rotate(360deg);
+}
+
+#ulcaixaroxa {
+
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 80px;
+
+}
+
+#html {
+    background-image: url(html.svg);
+    width: 90px;
+    height: 100px;
+
+    background-repeat: no-repeat;
+}
+
+#css {
+    background-image: url(css.svg);
+    width: 90px;
+    height: 100px;
+    background-repeat: no-repeat;
+}
+
+#c {
+    background-image: url(c.svg);
+    width: 90px;
+    height: 100px;
+    background-repeat: no-repeat;
+}
+
+#windows {
+    background-image: url(Windows\ 11.svg);
+    width: 90px;
+    height: 100px;
+    background-repeat: no-repeat;
+}
+
+#linux {
+    background-image: url(Linux\ Ubuntu.svg);
+    width: 90px;
+    height: 100px;
+    background-repeat: no-repeat;
+}
+
+/* #conteinerprojetos {
+    width: 100%;
+    height: 380vh;
+    align-items: center;
+    display: grid;
+    justify-content: center;
+    margin-bottom: -50px;
+}
+
+#caixa1 {
+    display: flex;
+    width: 30%;
+    height: 20%;
+    align-items: center;
+    
+}
+#caixa1 div{
+    display: flex;
+    flex-direction: column;
+}
+#caixa1 div h4 {
+    padding: 20px;
+}
+
+#caixa1 div h2 {
+    padding: 20px;
+    font-size: 30px;
+}
+
+#imagem1 {
+
+    width: 600px;
+    height: 350px;
+    background-color: #ffffff;
+    border: solid 2px #8D78FF;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    align-items: center;
+    
+    
+}
+#imagem{
+    width: 100%;
+    height: 100%;
+}
+#cisco{
+    margin-left: 400px;
+    width: 150%;
+    height: 150%;
+}
+
+#textodoprojeto1 {
+    width: 600px;
+    height: 120px;
+    background: #59598D;
+    border-radius: 20px;
+    border: solid 2px #8D78FF;
+    margin-left: -150px;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    opacity: 0.9;
+   
+
+}
+
+#linguagem1 {
+    width: 20%;
+    border-bottom: solid 2px #8D78FF;
+}
+
+.gradient {
+    background-image: linear-gradient(to bottom, #8D78FF 50%,  #3B3B79 100%);
+    background-clip: text;
+    color: transparent;
+}
+
+#caixa2 {
+    display: flex;
+    width: 30%;
+    height: 20%;
+    align-items: center;
+}
+
+#caixa2 div{
+    display: flex;
+    flex-direction: column;
+}
+
+
+#caixa2 div h2 {
+    padding: 20px;
+    font-size: 30px;
+    text-align: end;
+}
+
+#imagem2 {
+    width: 600px;
+    height: 350px;
+    background-color: #ffffff;
+    border: solid 2px #8D78FF;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    align-items: center;
+}
+#imagem2 img{
+    width: 100%;
+    height: 100%;
+}
+#textodoprojeto2 {
+    width: 600px;
+    height: 120px;
+    background: #59598D;
+    border-radius: 20px;
+    border: solid 2px #8D78FF;
+    margin-right: -150px;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    opacity: 0.9;
+    display: grid;
+    justify-content: center;
+    
+}
+
+#linguagem2 {
+    padding: 20px;
+    text-align: end;
+    align-self: end;
+    width: 20%;
+    border-bottom: solid 2px #8D78FF;
+} */
+
+section{
+
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1000px;
+
+}
+
+
+#cadastrar{
+    margin-top: -70px;
+    align-items: center;
+    text-align: center;
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    border: solid 2.5px #8D78FF;
+    background-color: transparent;
+}
+#cadastrar:hover {
+    border: solid 2.5px #000000;
+    background-color: #8D78FF;
+    color: #000000;
+    transition: 0.5s;
+}
+#cadastrar p{
+    margin-top: 5px;
+}
+
+#rodape{
+    
+    width: 100%;
+    height: 140px;
+    background-image: linear-gradient(rgb(0, 0, 0),rgb(59, 59, 121));
+    text-align: center;
+    align-items: center;
+
+}
+#rodape ul{
+    height: 50px;
+    width: 90%;
+    display: flex;
+    justify-content: end;
+}
+#ulrodape div a{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+#rodape  li{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+#rodape li div{
+    margin-top: 20px;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.m-20 {
+    margin-top: 20px;
+}
+
+.flex-title  {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.project-img img, .project-img2 img {
+    width: 100%;
+    border-radius: 10px;
+   
+   
+}
+
+.title-project, .title-project2 {
+    font-size: 250%;
+    font-weight: bold;
+    background-image: linear-gradient(to bottom, #8D78FF 50%,  #3B3B79 100%);
+    background-clip: text;
+    color: transparent;
+    text-align: center;
+    position: absolute;
+    z-index: 99;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -100%);
+}
+
+.invert {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.text-project{  
+    position: relative;
+    background-color: #59598D;
+    padding: 20px;
+    border-radius: 10px;
+    border: solid 3px #2f2279;
+    opacity: 0.9;
+}
+
+.details-project {
+    position: relative;
+    padding: 25px;
+    background: #59598D;
+    border: solid 5px #8D78FF;
+    position: absolute;
+    width: 40%;
+    height: 15%;
+    border-radius: 10px;
+    top: 64%;
+    left: 50%;
+    font-size: 90%;
+}
+
+.main-infos {
+    margin-left: 5px;
+}
+.project-conteiner{
+    position: relative;
+    width: 100%;
+    min-width: 400px;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    align-items: center;
+    padding-bottom: 100px;
+    
+}
+.project-img {
+    
+    position: relative;
+    grid-column: 1 / 7;
+    grid-row: 1 / 1;
+    z-index: -2;
+    border: solid 3px #2f2279;
+    border-radius: 20px;
+    overflow: hidden;
+    display: grid;
+    border: solid 3px #8D78FF;
+    z-index: 99;
+
+}
+.conteiner-text{
+    position: relative;
+    width: 100%;
+    max-height: 150px;
+    grid-column: 5 / -1;
+    grid-row: 1 / 1;
+    z-index: 999;
+}
+.lang-project{
+    width: 67%;
+    position: relative;
+    display: flex;
+    padding-left: 33%;
+}
+#titulo-project{
+    padding-bottom: 5%;
+    height: 60px;
+    margin-bottom: 0px;
+    background-image: linear-gradient(to bottom, #8D78FF 50%,  #3B3B79 100%);
+    background-clip: text;
+    color: transparent;
+    font-size: 40px;
+}
+
+.project-img2 {
+
+    position: relative;
+    grid-column: 5 / -1;
+    grid-row: 1 / 1;
+    z-index: -2;
+    border: solid 3px #2f2279;
+    border-radius: 20px;
+    overflow: hidden;
+    display: grid;
+    border: solid 3px #8D78FF;
+    z-index: 99;
+
+}
+.conteiner-text2{
+    position: relative;
+    width: 100%;    
+    max-height: 150px;
+    grid-column: 1 / 7;
+    grid-row: 1 / 1;
+    z-index: 999;
+}
+.lang-project2{
+    width: 67%;
+    position: relative;
+    display: flex;
+    padding-left: 33%;
+}
+#titulo-project2{
+    padding-bottom: 5%;
+    height: 60px;
+    margin-bottom: 0px;
+    background-image: linear-gradient(to bottom, #8D78FF 50%,  #3B3B79 100%);
+    background-clip: text;
+    color: transparent;
+    font-size: 40px;
+
+}
+.project-img a{
+    display: flex;
+    justify-content: center;
+}
+
+.project-img2 a{
+    display: flex;
+    justify-content: center;
+}
